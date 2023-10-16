@@ -1,0 +1,16 @@
+.mainContainer{
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+@media(min-width:768px){
+   .mainContainer{
+    grid-template-columns: 1fr 1fr 40%;
+    width: 75%;
+    margin: auto;
+    /* grid-template-columns: 20% 30% 30%; */
+   }
+}
+

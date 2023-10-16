@@ -1,0 +1,71 @@
+.containerCard{
+    border: 2px solid rgb(203, 197, 197) ;
+       
+}
+
+.titleCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(203, 197, 197) ;
+}
+
+.containerTitle{
+    position: relative;   
+    flex: 1;
+}
+
+.userName{
+    position: absolute;
+    top:calc(50% - 9.6px);
+    padding-left: 5px;   
+}
+
+.avatarProfile{
+    height: 48px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.containerMainImage{
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    width: 100%;
+}
+
+.containerMainImage img{
+    width: 100%;
+}
+
+.containerInfoCard{
+    padding: 10px 24px;
+}
+
+.containerIcons{
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.commentsCard{
+  color:rgb(203, 197, 197) ;
+}
+
+.avatarProfile:hover{
+    border: 2px dashed palevioletred;
+}
+
+@media(min-width:768px){
+    .containerCard{
+        grid-column: 1/3;
+    }
+}

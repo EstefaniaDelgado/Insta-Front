@@ -1,0 +1,26 @@
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(203, 197, 197) ;
+}
+
+.containerHeader p{
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.avatarProfile{
+    height: 48px;
+    width: auto;
+    border-radius: 50px;
+    border-top: 4px solid palevioletred;
+    border-right: 4px solid yellowgreen;
+    border-bottom:4px solid palevioletred ;
+    border-left:4px solid yellowgreen ;
+   }
+
+
+
