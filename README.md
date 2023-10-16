@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 ## Deploy 🚀
 
-This project has been deploy with Vercel.
+This project has been deploy with **Vercel**.
