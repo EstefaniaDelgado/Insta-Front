@@ -53,6 +53,10 @@
         color:rgb(117, 114, 114);
     }
 
+    aside{
+        flex: 0.5;
+    }
+
     .btnCurrentUser, .btnFollowUser{
     cursor: pointer;
     padding-left: 5px;

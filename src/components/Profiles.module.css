@@ -17,8 +17,7 @@
 @media(min-width:768px){
   .containerImages{
     grid-column: 1/3;
-    height: 30px;
-    padding: 30px;
+    padding: 10px;
   }
 }
     

@@ -56,7 +56,7 @@ const UserFollow = () => {
       {/* Other profiles to follow*/}
       <article className={styles.othersUsers}>
         <h4>Sugerencias de busqueda</h4>
-        <article className={styles.followUser}>
+       {/*  <article className={styles.followUser}>
           <div className={styles.infoFollowUser}>
             <img className={styles.avatarProfile} src={ContainerPerfil} alt="profile" />
             <strong className={styles.userName}>Abril Gonzales</strong>
@@ -64,7 +64,7 @@ const UserFollow = () => {
           <aside>
             <button className={btnFollowUser} onClick={handlerClick}>Seguir</button>
           </aside>
-        </article>
+        </article> */}
         <>
            {
             users.map(user=>{

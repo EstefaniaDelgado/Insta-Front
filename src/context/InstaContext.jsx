@@ -9,16 +9,14 @@ export function InstaContextProvider(props) {
     const [users, setUsers] = useState([]);
    
     
-    const[findUser, setFindUser]=useState({
-      
-    })
+    const[findUser, setFindUser]=useState({});
   
 
     useEffect(() => {
         setUsers(data);
       }, []);
 
-/* Look for a user */
+/* Looking for a user */
 const getUser = (user) => {
   const foundUser = users.find((ele) => ele.userName.toLowerCase() === user.toLowerCase());
   if (foundUser) {
