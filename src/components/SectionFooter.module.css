@@ -5,9 +5,17 @@
     margin-top: 60px;
     font-size: 1rem;
     padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
-
+.linkGitHub{
+    font-size: 32px;
+    height: 32px;
+}
 
 @media(min-width:768px){
     .containerFooter p{

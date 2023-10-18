@@ -23,6 +23,7 @@ const getUser = (user) => {
     setFindUser({
       id:foundUser.id,
       userName: foundUser.userName,
+      nickName:foundUser.nickName,
       // Otras propiedades del usuario que desees incluir
     });
   }else{

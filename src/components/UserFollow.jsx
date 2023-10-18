@@ -12,6 +12,7 @@ const UserFollow = () => {
 
   const { findUser, users } = useContext(InstaContext);
 
+
   const btnFollowUser = isFollow ? 'btn-FollowUser isFollowing' : 'btn-FollowUser';
 
   const handlerClick = ()=>{
@@ -44,7 +45,7 @@ const UserFollow = () => {
               <span>
                 <strong>{findUser.userName}</strong>
               </span>
-              <p>ABRIL👻</p>
+              <p>{findUser.nickName}</p>
             </div>
           </div>
           <aside>
@@ -71,6 +72,7 @@ const UserFollow = () => {
                 return(
                     <AvatarFollow
                     userName={user.userName}
+                    nickName={user.nickName}
                     id={user.id}
                     key={user.id}
                     />

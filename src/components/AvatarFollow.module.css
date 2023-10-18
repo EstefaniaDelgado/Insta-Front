@@ -55,6 +55,7 @@
 
     aside{
         flex: 0.5;
+        text-align: center;
     }
 
     .btnCurrentUser, .btnFollowUser{
