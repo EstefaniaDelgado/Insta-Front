@@ -22,7 +22,13 @@
         userName:"Robot",  
         nickName:"ROBOT 🤖",
         isFollowing:"true",      
-     }
+     },
+     {
+      id:5,
+      userName:"Hans Urpay",  
+      nickName:"HANS 😎",
+      isFollowing:"true",      
+   }
  ]
  
  export default data;
