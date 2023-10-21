@@ -1,5 +1,9 @@
 import React, { createContext, useEffect, useState } from 'react';
 import data from '../data/data';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 export const InstaContext = createContext()
 
@@ -27,7 +31,11 @@ const getUser = (user) => {
       // Otras propiedades del usuario que desees incluir
     });
   }else{
-    window.alert("Usuario no encontrado")
+    /* window.alert("Usuario no encontrado") */
+    toast("Este usuario no existe",{
+      type:"delete",
+      autoClose:1000,
+    });
   }
 };
       
